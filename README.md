@@ -8,4 +8,9 @@ Portanto, uma solução viável seria a utilização da ferramenta [MyEclipse](h
 
 Você sabia que é possível utilizar em ambiente de desenvolvimento/testes o **WebSphere® Application Server** free livre de cobranças? A **IBM®** oferece aos desenvolvedores um **ambiente de desenvolvimento WebSphere free runtime**. Vejamos abaixo algumas features disponíveis:
 
-
+![RAD Features](images/1.png)
+* Free para uso por desenvolvedores
+* Processo de registro obrigatório (porém free)
+* WebSphere versions **6.1**, **7.0**, **8.0**, **8.5** e **9.0** disponíveis
+* Integra-se perfeitamente ao [MyEclipse](https://www.genuitec.com/products/myeclipse/features/websphere/) WebSphere (Blue)
+* Disponível somente para as plataformas **Linux** e **Windows**
