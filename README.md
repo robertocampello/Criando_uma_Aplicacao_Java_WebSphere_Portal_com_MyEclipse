@@ -41,21 +41,30 @@ Para realizar a instalação do WebSphere, siga os passos definidos no link abai
 Para **rodar aplicações Java** dentro do WebSphere é necessário a **criação/configuração** de uma instância do application server profile. Para isto, é necessário a utilização da ferramenta **Profile Management Tool**, responsável pela criação de **manageprofiles**. 
 Vejamos o passo a passo para criação:
 
-1. Inicie a ferramenta **WebSphere Customization Toolbox** no menu **Start** do Windows:
+1. Inicie a ferramenta **Profile Management Tool** através do menu **Start** do Windows:
 
-    ![WebSphere Toolbox](images/2.png)
+    ![WebSphere Profile Tool](images/2.png)
 
-2. Adicione o caminho para criação do profile, clicando em **Add**. Forneça o nome do profile e o caminho para armazenamento e clique em **Finish**:
+2. Clique em **Create** na aba **Profiles** para criar um novo profile:
 
-    ![WebSphere Add Path](images/3.png)
+3. Selecione a opção **Application server** e clique em **Next**:
 
-3. Após clique em **Create** na aba **Customization Definitions** e selecione a opção **Application server** e clique em **Next**:
+    ![WebSphere Option App Server](images/3.png)
 
-    ![WebSphere Option App Server](images/4.png)
+4. Selecione **Typical profile creation** ou **Advanced profile creation** e clique em **Next**:
 
-4. Defina o nome da instância do profile e clique em **Next**:
+    ![WebSphere Option Profile Creation](images/4.png)
+    
+    A opção **Typical profile creation** cria um profile através da configuração default. Utilizando **Advanced profile creation**, você pode especificar suas próprias opções de configuração. Neste tutorial, utilizaremos a opção **Typical profile creation**.
+
+5. Defina o nome da instância do profile e clique em **Next**:
 
     ![WebSphere Option Set Server](images/5.png)
 
-
+    **Oservação:**
+    O nome do profile deve ser único com as seguintes restrições:
+    
+    * Não pode conter espaços
+    * Não pode conter caracteres especiais, barras (/) ou contra barras (\)
+    
 
