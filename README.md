@@ -41,11 +41,11 @@ Para realizar a instalação do WebSphere, siga os passos definidos no link abai
 Para **rodar aplicações Java** dentro do WebSphere é necessário a **criação/configuração** de uma instância do application server profile. Para isto, é necessário a utilização da ferramenta **Profile Management Tool**, responsável pela criação de **manageprofiles**. 
 Vejamos o passo a passo para criação:
 
-1. Iniciar a ferramenta **WebSphere Customization Toolbox** no menu **Start** do Windows:
+1. Inicie a ferramenta **WebSphere Customization Toolbox** no menu **Start** do Windows:
 
     ![WebSphere Toolbox](images/2.png)
 
-2. Adicionar o caminho para criação do profile, clicando em **Add**. Forneça o nome do profile e o caminho para armazenamento e clique em **Finish**:
+2. Adicione o caminho para criação do profile, clicando em **Add**. Forneça o nome do profile e o caminho para armazenamento e clique em **Finish**:
 
     ![WebSphere Add Path](images/3.png)
 
