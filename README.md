@@ -64,3 +64,11 @@ Vejamos o passo a passo para criação:
 6. Revise as informações do ambiente e clique em **Create** se estiver tudo correto:
 
     ![WebSphere Create](images/6.png)
+    
+7. Clique em **Finish** para finalizar a criação do profile.
+
+    ![WebSphere Finish](images/7.png)
+
+Tendo concluída a **criação do profile**, você pode executar os primeiros passos através da ferramenta **First steps**. Através desta ferramenta, você pode por exemplo: **Iniciar/Parar o Servidor**, acessar a **Ferramenta Admin Console**.
+
+    ![WebSphere FirstSteps](images/8.png)
