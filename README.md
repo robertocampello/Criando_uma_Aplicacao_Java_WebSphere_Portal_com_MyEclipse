@@ -56,15 +56,11 @@ Vejamos o passo a passo para criação:
     ![WebSphere Option Profile Creation](images/4.png)
     
     A opção **Typical profile creation** cria um profile através da configuração default. Utilizando **Advanced profile creation**, você pode especificar suas próprias opções de configuração. Neste tutorial, utilizaremos a opção **Typical profile creation**.
-
-5. Defina o nome da instância do profile e clique em **Next**:
-
-    ![WebSphere Option Set Server](images/5.png)
-
-    **Oservação:**
-    O nome do profile deve ser único com as seguintes restrições:
     
-    * Não pode conter espaços
-    * Não pode conter caracteres especiais, barras (/) ou contra barras (\)
-    
+5. Defina o **usuário** e a **senha de acesso** a ferramenta admin do **WebSphere** e clique em **Next**:
 
+    ![WebSphere User_Password](images/5.png)    
+
+6. Revise as informações do ambiente e clique em **Create** se estiver tudo correto:
+
+    ![WebSphere Create](images/6.png)
