@@ -1,10 +1,10 @@
-# Criando uma Aplicacão Java WebSphere Portal com MyEclipse Blue
+# Criando uma Aplicacão Java Web com IBM WebSphere Application Server
 
-Tutorial demonstrando como criar uma aplicação **Java WebSphere Portal** com o **MyEclipse Blue IDE**.
+Tutorial demonstrando como criar uma aplicação **Java Web IBM WebSphere** com o **Eclipse IDE**.
 
-Um dos principais desafios no desenvolvimento de aplicações **Java WebSphere Portal** está relacionado ao custo de licença da IDE **[IBM Rational Application Developer for WebSphere Software (RAD)](https://www.ibm.com/us-en/marketplace/rad-for-websphere-software/details)**. A ferramenta **RAD** pois os componentes necessários para o desenvolvimento de uma aplicação de portal, além do próprio servidor de aplicação **WebSphere**. Entretanto, o custo de licença é bem alto o que pode inviabilizar, principalmente sendo um projeto de baixo ou médio porte.
+Um dos principais desafios no desenvolvimento de aplicações **Java WebSphere** está relacionado ao custo de licença da IDE **[IBM Rational Application Developer for WebSphere Software (RAD)](https://www.ibm.com/us-en/marketplace/rad-for-websphere-software/details)**. A ferramenta **RAD** pois os componentes necessários para o desenvolvimento de uma aplicação Java Web, além do próprio servidor de aplicação **WebSphere**. Entretanto, o custo de licença é bem alto o que pode inviabilizar, principalmente sendo um projeto de baixo ou médio porte.
 
-Portanto, uma solução viável seria a utilização da ferramenta [MyEclipse](https://www.genuitec.com/products/myeclipse/download/websphere-developers/), pois a IDE possui um custo de licença mais accessível, comparado ao RAD. Neste tutorial veremos que podemos utilizar o **servidor de aplicação WebSphere** integrado com a **IDE MyEclipse Blue**.
+Portanto, uma solução viável seria a utilização da ferramenta [IBM WebSphere Application Server Developer Tools for Eclipse](https://www.ibm.com/support/knowledgecenter/en/SSHR6W/com.ibm.websphere.wdt.doc/topics/t_install_wdt.htm).
 
 Você sabia que é possível utilizar em ambiente de desenvolvimento/testes o **WebSphere® Application Server** free livre de cobranças? A **IBM®** oferece aos desenvolvedores um **ambiente de desenvolvimento WebSphere free runtime**. Vejamos abaixo algumas features disponíveis:
 
@@ -12,7 +12,7 @@ Você sabia que é possível utilizar em ambiente de desenvolvimento/testes o **
 * Free para uso por desenvolvedores
 * Processo de registro obrigatório (porém free)
 * WebSphere versions **8.0**, **8.5** e **9.0** disponíveis
-* Integra-se perfeitamente ao [MyEclipse](https://www.genuitec.com/products/myeclipse/features/websphere/) WebSphere (Blue)
+* Integra-se perfeitamente ao **Eclipse IDE**
 * Disponível somente para as plataformas **Linux** e **Windows**
 
 ## Pré-Requisitos
@@ -21,8 +21,9 @@ Você sabia que é possível utilizar em ambiente de desenvolvimento/testes o **
   
     [Download WAS 8.0, 8.5, 9.0 for developers](https://developer.ibm.com/wasdev/downloads/#asset/WAS_traditional_for_Developers)
     
-2. Instalar a IDE [MyEclipse](https://www.genuitec.com/products/myeclipse/download/)
-3. Conhecimento no desenvolvimento **Web Java EE** e **Java Core cross-platform**
+2. Instalar a IDE [Eclipse](https://www.eclipse.org/downloads/)
+3. Instalar a ferramenta [IBM WebSphere Application Server Developer Tools for Eclipse](https://www.ibm.com/support/knowledgecenter/en/SSHR6W/com.ibm.websphere.wdt.doc/topics/t_install_wdt.htm)
+4. Conhecimento no desenvolvimento **Web Java EE** e **Java Core cross-platform**
 
 ## Instalando o WebSphere Application Server
 
